@@ -1,0 +1,166 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Final
+  link(rel='stylesheet' href='./styles/main.min.css')
+header.header
+  .container
+    .header__top
+      .header__logo
+        h1
+          a(href='#') DREAMSHARE
+      nav.menu
+        .menu__log
+          button.menu__link(type='submit')  Log in 
+        .menu__sign
+          button(type='submit')  Sign up
+    .header__bottom
+      .header__title
+        h1
+          | SHARE YOUR
+          | HOLIDAY DREAM
+      .header__subtitle
+        p  And find the perfect partner to fullfill it
+      .header__btn
+        button(type='button')
+          | Find your holiday partner
+section.dream
+  .container
+    h1.text
+      | How Dreamshare works?
+    .dream__foto
+      .dream__items
+        .dreams__img
+          img(src='./images/dream-foto1.jpg' alt='')
+        button.dream__btn(type='submit')
+          | STEP 1
+        p.dream__suptitle Sed leo enim, condimentum
+        p.dream__subtitle
+          | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec
+          | rhoncus a leo sit amet facilisis.
+      .dream__items
+        .dreams__img
+          img(src='./images/dream-foto2.jpg' alt='')
+        button.dream__btn.dream__btn--step(type='submit')
+          | STEP 2
+        p.dream__suptitle Morbi velit risus
+        p.dream__subtitle
+          | Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet
+          | porttitor est.
+      .dream__items
+        .dreams__img
+          img(src='./images/dream-foto3.jpg' alt='')
+        button.dream__btn(type='submit')
+          | STEP 3
+        p.dream__suptitle Sed leo enim, condimentum
+        p.dream__subtitle
+          | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec
+          | rhoncus a leo sit amet facilisis.
+section.meet
+  .container
+    h1.text
+      | Meet a partner for your best holiday
+    .meet__items
+      .meet__img
+        .meet__foto.meet__foto--music
+          img(src='./images/meet-foto1.png' alt='')
+        .meet_text
+          p.meet__name Bradley Hunter
+          p.meet__subtitle  Based in Chicago. I love playing tennis and loud music.
+      .meet__img
+        .meet__foto.meet__foto--brush
+          img(src='./images/meet-foto2.png' alt='')
+        .meet_text
+          p.meet__name Marie Bennett
+          p.meet__subtitle  Currently living in Colorado. Lover of art, languages and travelling.
+      .meet__img
+        .meet__foto.meet__foto--camera
+          img(src='./images/meet-foto3.png' alt='')
+        .meet_text
+          p.meet__name Diana Wells
+          p.meet__subtitle
+            | Living in Athens, Greece. I love black and white classics, chillout music
+            | and green tea.
+      .meet__img
+        .meet__foto.meet__foto--airplane
+          img(src='./images/meet-foto4.png' alt='')
+        .meet_text
+          p.meet__name Christopher Pierce
+          p.meet__subtitle Star Wars fanatic. I have a persistent enthusiasm to create new things.
+    .meet__btn
+      button(type='button')
+        | See other partners
+section.gallery
+  .container
+    h1.text
+      | Discover holiday activity ideas
+    .gallery__body
+      .gallery__line
+        .gallery__img
+          img(src='./images/discovery1.jpg' alt='')
+          .gallery__text
+            p Sports and Activis
+        .gallery__img
+          img(src='./images/discovery2.jpg' alt='')
+          .gallery__text
+            p Wellness and Health
+        .gallery__img
+          img(src='./images/discovery3.jpg' alt='')
+          .gallery__text
+            p
+              | Extreme Sports 
+              br
+              |                         and Expeditions
+      .gallery__line
+        .gallery__img
+          img(src='./images/discovery4.jpg' alt='')
+          .gallery__text
+            p Games
+        .gallery__img
+          img(src='./images/discovery5.jpg' alt='')
+          .gallery__text
+            p Culture and Education
+      .gallery__line
+        .gallery__img
+          img(src='./images/discovery6.jpg' alt='')
+          .gallery__text
+            p Enjomet and Relaxation
+        .gallery__img
+          img(src='./images/discovery7.jpg' alt='')
+          .gallery__text
+            p Trevelling
+section.search
+  .container
+    h1.text
+      | Crate your holiday activity
+    p.search__subtitle
+      | Hi! What are your holiday interests?
+    .search__body
+      .search__item
+        input(type='text' placeholder='Enter your insterests')
+        button.search__btn(type='button') Search partners
+footer.footer
+  .container
+    .footer__body
+      .footer__items.footer__items--left
+        .footer__text-logo
+          p DREAMSHARE
+        .footer__item
+          p.footer__text
+            | Company
+          ul
+            li About
+            li Contact
+            li Press
+            li Blog
+            li
+              | Terms and Privacy
+            li Help
+        .footer__item
+          p.footer__text
+            | Partners
+      .footer__items.footer__items--right
+        .footer__logo
+          p.footer__design DESIGNED BY
+          img(src='./images/footer-logo.png' style='width: 110px;height: 24px;' alt='')
